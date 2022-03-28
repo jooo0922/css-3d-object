@@ -1,0 +1,44 @@
+* {
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+canvas {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #ffffff;
+  border-radius: 0.2rem;
+}
+
+.title {
+  font-size: 1.25rem;
+  opacity: 0.87;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.content {
+  max-width: 12rem;
+  opacity: 0.6;
+}
